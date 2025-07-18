@@ -25,7 +25,7 @@ h2 {
     font-weight: 400;
     font-style: normal;
     color: #F9632D;
-    font-size: 1.3rem;
+    font-size: 1.05rem;
 }
 
 label {
@@ -162,7 +162,7 @@ input[type="number"] {
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
   width: 100%; /* Full-width */
-  height: 3px; /* Specified height */
+  height: 2px; /* Specified height */
   background: #262525; /* Grey background */
   outline: none; /* Remove outline */
 }
@@ -171,16 +171,16 @@ input[type="number"] {
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none; /* Override default look */
   appearance: none;
-  width: 1rem; /* Set a specific slider handle width */
-  height: 1rem; /* Slider handle height */
+  width: 10px; /* Set a specific slider handle width */
+  height: 10px; /* Slider handle height */
   background: #262525; /* Green background */
   cursor: pointer; /* Cursor on hover */
   border-radius: 2px;
 }
 
 .slider::-moz-range-thumb {
-  width: 15px; /* Set a specific slider handle width */
-  height: 15px; /* Slider handle height */
+  width: 10px; /* Set a specific slider handle width */
+  height: 10px; /* Slider handle height */
   background: #262525; /* Green background */
   cursor: pointer; /* Cursor on hover */
   border-radius: 2px;
