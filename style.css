@@ -184,6 +184,7 @@ input[type="number"] {
   background: #262525; /* Green background */
   cursor: pointer; /* Cursor on hover */
   border-radius: 2px;
+  border: none;
 }
 
 .hover {
